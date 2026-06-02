@@ -1,11 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <input type="text" />
+      <button class="header__btn">add</button>
+    </div>
+    <div class="body">
+      <div class="filters__btns">
+        <button class="filter__btn">all</button>
+        <button class="filter__btn">completed</button>
+        <button class="filter__btn">incompleted</button>
+      </div>
+      <div class="tasks">
+        <div class="task">
+          <div clas="checkbox__title">
+            <input type="checkbox" />
+            <span class="title">text</span>
+          </div>
+          <div class="task__btns__container">
+            <button>edit</button>
+            <button>delete</button>
+          </div>
+        </div>
+        <div class="task">
+          <div clas="checkbox__title">
+            <input type="checkbox" />
+            <span class="title">text</span>
+          </div>
+          <div class="task__btns__container">
+            <button>edit</button>
+            <button>delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
